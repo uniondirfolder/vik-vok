@@ -1,11 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-
+import "@draft-js-plugins/mention/lib/plugin.css";
+import AppProviders from "components/AppProviders";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.scss";
 
 ReactDOM.render(
-    <App />,
+  <AppProviders>
+    <App />
+  </AppProviders>,
   document.getElementById("root")
 );
-
