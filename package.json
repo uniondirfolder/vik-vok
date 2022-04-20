@@ -21,7 +21,7 @@
     "shortid": "2.2.16"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "react-scripts start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
@@ -34,7 +34,7 @@
   "browserslist": {
     "production": [
       ">0.3%",
-      "nont ie 11",
+      "not ie 11",
       "not dead",
       "not op_mini all"
     ],

@@ -29,6 +29,7 @@ export default function VideoPost() {
   }));
   const post = postDoc?.[0];
 
+
   if (loading) return <Loader />;
 
   return (

@@ -10,6 +10,7 @@ import { formatDraftText } from "lib/draft-utils";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
+
 export default function FeedItem({ post }) {
   return (
     <div className="fi-container">
